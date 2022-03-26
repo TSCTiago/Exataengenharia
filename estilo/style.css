@@ -415,8 +415,12 @@ footer .info ion-icon {
         
     }
     .home-section{
+        position: relative;
+        padding-top: 150px;
         display: block;
         text-align: center;
+        height: 100%;
+        padding-bottom: 30px;
         
     }
     .menu-open {
