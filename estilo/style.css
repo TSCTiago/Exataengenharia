@@ -496,7 +496,7 @@ footer .info ion-icon {
     }
     
     .orcament{
-        margin-left: 15vh;
+        margin: 0 20vw 0 20vw;
     }
     .speak .speak-content{
         width: 50vh;
@@ -560,4 +560,5 @@ footer .info ion-icon {
     .speak-content h2{
         font-size: 23px;
     }
+
 }
