@@ -18,10 +18,11 @@
 }
 
 /* Navbar */
-body{
+body {
     width: 100vw;
     overflow-x: hidden;
 }
+
 .nav {
     position: fixed;
     width: 100%;
@@ -71,30 +72,35 @@ body{
 .nav .menu li a:hover {
     color: white;
 }
-.hire{
+
+.hire {
     padding: 10px;
     background: rgb(255, 174, 0);
     border-radius: 7px;
     transition: all 0.3s ease;
 }
-.hire:hover{
+
+.hire:hover {
     transform: scale(1.2);
     border: 1px solid yellow;
     background: none;
 }
-.hire a{
+
+.hire a {
     color: white;
     font-size: 18px;
     font-weight: 700;
 
 }
-.hire.body{
+
+.hire.body {
     visibility: hidden;
     font-family: var(--font4);
     color: white;
     font-size: 18px;
     font-weight: 700;
 }
+
 .menu-open {
     visibility: hidden;
 }
@@ -156,10 +162,10 @@ body{
     text-align: center;
     font-size: 25px;
 
-    
+
 }
 
-.max-width  h2 {
+.max-width h2 {
     margin: 10px 0 10px 0;
     /*margin-bottom: 30px;*/
     font-family: var(--font4);
@@ -169,6 +175,7 @@ body{
     margin-top: 0;
     width: 100%; */
 }
+
 .about-content {
     height: 70vh;
     display: flex;
@@ -189,9 +196,11 @@ body{
     font-size: 24px;
 
 }
-.orcament{
+
+.orcament {
     width: 300px;
 }
+
 .colum-description .orcament, .speak_us {
     text-align: center;
     color: white;
@@ -222,16 +231,18 @@ body{
     background: url('/images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
     background-size: contain;
 }
-.speak .max-width .tell{
+
+.speak .max-width .tell {
     padding-top: 50px;
 
 
 }
+
 .speak-content h3 span {
     color: rgb(35, 35, 248);
     font-weight: bolder;
     /*background: url('/images/imagens_faleconosco/computador.gif') no-repeat right;*/
-   
+
     /*background: url('/images/imagens_faleconosco/pessoas_conversando.png') no-repeat right;*/
 
 }
@@ -244,9 +255,11 @@ body{
     font-weight: 600;
     color: white;
 }
-.colunm-speak h3{
+
+.colunm-speak h3 {
     font-weight: 400;
 }
+
 .benefits {
     height: 90vh;
     background: url('/images/back1.jpg');
@@ -292,9 +305,11 @@ body{
     background: black;
     color: rgb(255, 174, 0);
 }
-.card:hover ion-icon{
- transform: scale(1.1);
+
+.card:hover ion-icon {
+    transform: scale(1.1);
 }
+
 /*Contato*/
 .contact {
     background: rgba(0, 0, 0, 0.719);
@@ -408,22 +423,25 @@ footer .info ion-icon {
 
 /*Resposividade*/
 @media(max-width: 920px) {
-    .hire{
+    .hire {
         visibility: hidden;
     }
-    .home-div{
-       text-align: center;
-        
+
+    .home-div {
+        text-align: center;
+
     }
-    .home-section{
+
+    .home-section {
         position: relative;
         padding-top: 150px;
         display: block;
         text-align: center;
         height: 100%;
         padding-bottom: 30px;
-        
+
     }
+
     .menu-open {
         visibility: visible;
         font-size: 40px;
@@ -486,34 +504,40 @@ footer .info ion-icon {
         color: white;
     }
 
-    .about-content{
+    .about-content {
         display: block;
-        text-align: center;   
-       
+        text-align: center;
+
     }
+
     .colum-description {
         width: 100vw;
         text-align: center;
     }
-    
-    .orcament{
+
+    .orcament {
         margin: 0 20vw 0 20vw;
     }
-    .speak{
+
+    .speak {
         width: 100%;
     }
-    .speak .speak-content{
+
+    .speak .speak-content {
         width: 50vh;
     }
-    .colunm-speak{
+
+    .colunm-speak {
         width: 100%;
         display: block;
         text-align: justify;
         font-size: 20px;
     }
-    .speak_us{
+
+    .speak_us {
         width: 100%;
     }
+
     .benefits {
         height: 100%;
     }
@@ -530,26 +554,31 @@ footer .info ion-icon {
         text-align: center;
     }
 }
+
 @media(max-width: 600px) {
-    .hire.body{
+    .hire.body {
         visibility: visible;
         width: 50vw;
         text-align: center;
         margin: 0 25vw 0 25vw;
-       
+
     }
-    .speak .speak-content{
+
+    .speak .speak-content {
         width: 50vh;
     }
-    .colunm-speak{
+
+    .colunm-speak {
         width: 100%;
         display: block;
         text-align: justify;
         font-size: 18px;
     }
-    .speak_us{
-        width: 100%;
+
+    .speak_us {
+        width: 350px
     }
+
     .card {
         width: 100%;
         height: 320px;
@@ -557,11 +586,13 @@ footer .info ion-icon {
         text-align: center;
     }
 }
-@media(max-width: 600px){
-    .speak-content h3 span{
+
+@media(max-width: 600px) {
+    .speak-content h3 span {
         font-size: 18px;
     }
-    .speak-content h2{
+
+    .speak-content h2 {
         font-size: 23px;
     }
 
