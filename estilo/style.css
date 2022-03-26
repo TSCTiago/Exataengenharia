@@ -445,7 +445,7 @@ footer ion-icon:hover{
    
 }
 footer ion-icon:hover.a{
-    color: pink;
+    color: palevioletred;
 }
 footer ion-icon:hover.b{
     color: blue;
@@ -630,5 +630,11 @@ footer ion-icon:hover.d{
     .speak-content h2 {
         font-size: 23px;
     }
+    footer{
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+
 
 }
