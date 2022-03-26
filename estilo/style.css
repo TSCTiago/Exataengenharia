@@ -268,6 +268,7 @@
 
 .card ion-icon {
     font-size: 70px;
+    transition: all 0.3s ease;
 }
 
 .card h2 {
@@ -278,8 +279,11 @@
 .card:hover {
     transform: scale(1.05);
     background: black;
+    color: rgb(255, 174, 0);
 }
-
+.card:hover ion-icon{
+ transform: scale(1.1);
+}
 /*Contato*/
 .contact {
     background: rgba(0, 0, 0, 0.719);
