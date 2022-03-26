@@ -525,23 +525,20 @@ footer ion-icon:hover.d {
         padding-bottom: 80px;
 
     }
-
-    .menu-open {
-        visibility: visible;
-        font-size: 40px;
-        color: white;
-    }
-
     .max {
         max-width: 800px;
         padding: 0 50px;
     }
 
     .menu-open {
+        visibility: visible;
+        font-size: 40px;
+        color: white;
         display: block;
         z-index: 1;
         cursor: pointer;
         transition: all 0.3s ease-out;
+        background: none;
     }
 
     .menu-open.turn-in {
