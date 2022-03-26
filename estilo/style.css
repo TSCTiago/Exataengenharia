@@ -138,7 +138,7 @@ section {
     font-weight: bolder;
     text-transform: uppercase;
     margin-left: 20px;
-    color: white;
+    color: #ccc;
     font-family: var(--font4);
     opacity: 0;
 }
@@ -188,7 +188,7 @@ section {
 
 .about-content {
     padding: 30px;
-    height: 70%;
+    height: 700px;
     display: flex;
     justify-content: end;
     font-size: 20px;
@@ -210,7 +210,25 @@ section {
     margin-bottom: 10px;
 
 }
-
+.max-width .up{
+    background: #212a41f6;
+    padding: 20px;
+    margin-top: -25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: sticky;
+    color: #ccc;
+}
+.speak .max-width .up{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.benefits .max-width .up{
+    margin-top: -61px;
+}
+.contact .max-width .up{
+    margin-top: -40px;
+}
 .orcament {
     width: 300px;
 }
@@ -247,7 +265,7 @@ section {
 }
 
 .speak .max-width .tell {
-    padding-top: 50px;
+    padding-top: 20px;
 
 
 }
@@ -272,8 +290,8 @@ section {
 }
 
 .benefits {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center;*/
     height: 90vh;
     background: url('../images/back1.jpg');
     background-size: cover;
@@ -501,7 +519,7 @@ footer ion-icon:hover.d {
         display: block;
         text-align: center;
         height: 100%;
-        padding-bottom: 30px;
+        padding-bottom: 80px;
 
     }
 
