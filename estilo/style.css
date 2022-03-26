@@ -22,7 +22,9 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-
+section{
+    width: 100%;
+}
 .nav {
     position: fixed;
     width: 100%;
@@ -400,6 +402,7 @@ body {
 
 
 footer {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
