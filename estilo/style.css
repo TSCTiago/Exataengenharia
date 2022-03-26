@@ -651,14 +651,15 @@ footer ion-icon:hover.d {
     }
 
     .colunm-speak {
-        width: 90%;
+        width: 100%;
         display: block;
-        text-align: justify;
+        text-align: left;
         font-size: 18px;
     }
 
     .speak_us {
-        width: 300px
+        width: 300px;
+ 
     }
 
     .card {
@@ -682,15 +683,4 @@ footer ion-icon:hover.d {
     }
 
 
-}
-@media(max-width: 400px){
-    .about .max-width{
-        margin-bottom: 30px;
-    }
-    .speak .speak_us{
-        margin-bottom: 50px;
-    }
-    .speak{
-        height: 100%;
-    }
 }
