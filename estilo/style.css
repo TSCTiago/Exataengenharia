@@ -408,17 +408,32 @@ footer {
     justify-content: center;
     height: 100px;
     background: rgba(0, 0, 0, 0.534);
+    height: 250px;
+    padding: 20px;
+}
+footer .colunm{
+    padding: 20px;
 }
 
-footer .info {
+footer p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: var(--font1);
+    color: white;
+    font-weight: 700;
+}
+footer h3{
     font-size: 30px;
+    font-family: var(--font1);
 }
-
-footer .info ion-icon {
-    margin: 40px;
+footer img{
+    width: 190px;
+    height: auto;
+    margin-bottom: 30px;
 }
-
-
+footer ion-icon{
+    font-size: 40px;
+}
 /*Resposividade*/
 @media(max-width: 920px) {
     .hire {
