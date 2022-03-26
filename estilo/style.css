@@ -690,7 +690,10 @@ footer ion-icon:hover.d {
     .about .max-width{
         margin-bottom: 30px;
     }
-    .speak .speak-content{
-        margin-bottom: 130px;
+    .speak .speak_us{
+        margin-bottom: 50px;
+    }
+    .speak{
+        height: 100%;
     }
 }
