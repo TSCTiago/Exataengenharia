@@ -83,7 +83,7 @@ section {
     color: white;
 }
 
-.hire {
+.hire{
     padding: 10px;
     background: rgb(255, 174, 0);
     border-radius: 7px;
@@ -419,19 +419,21 @@ section {
     margin-top: 10px;
     width: 100%;
     height: 100%;
-    border: 2px solid var(--cor0);
-    background: var(--cor0);
-    color: rgb(0, 0, 0);
+    border: 2px solid yellow;
+    background: rgb(255, 174, 0);
+    color: white;
     font-size: 20px;
     font-weight: 500;
     border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-family: var(--font4);
 }
 
 .contact .right form, .button button:hover {
     color: black;
     background: none;
+    font-weight: bolder;
 }
 
 
