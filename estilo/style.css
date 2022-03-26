@@ -20,6 +20,7 @@
 /* Navbar */
 body{
     width: 100vw;
+    overflow-x: hidden;
 }
 .nav {
     position: fixed;
@@ -498,6 +499,9 @@ footer .info ion-icon {
     .orcament{
         margin: 0 20vw 0 20vw;
     }
+    /* .speak{
+        overflow-x: hidden;
+    } */
     .speak .speak-content{
         width: 50vh;
     }
