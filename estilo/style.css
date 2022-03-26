@@ -18,7 +18,9 @@
 }
 
 /* Navbar */
-
+body{
+    width: 100vw;
+}
 .nav {
     position: fixed;
     width: 100%;
@@ -256,7 +258,7 @@
 .card {
     text-align: center;
     width: 24%;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid black;
     background: rgba(0, 0, 0, 0.651);
     color: white;
@@ -264,6 +266,8 @@
     border-radius: 7px;
     height: 300px;
     transition: all 0.3s ease;
+    font-family: var(--font1);
+    font-weight: 600;
 }
 
 .card ion-icon {
@@ -273,7 +277,7 @@
 
 .card h2 {
     transition: all 0.3s ease;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .card:hover {
@@ -288,6 +292,7 @@
 .contact {
     background: rgba(0, 0, 0, 0.719);
     height: 100vh;
+    padding: 20px;
 }
 
 .contact-content {
@@ -500,6 +505,21 @@ footer .info ion-icon {
     }
 }
 @media(max-width: 600px) {
+    .hire{
+        visibility: hidden;
+    }
+    .speak .speak-content{
+        width: 50vh;
+    }
+    .colunm-speak{
+        width: 100%;
+        display: block;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .speak_us{
+        width: 100%;
+    }
     .card {
         width: 100%;
         height: 320px;
