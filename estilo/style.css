@@ -226,7 +226,7 @@ body {
 }
 
 .speak {
-    padding: 0 30px;
+    padding:20px;
     height: 80vh;
     background: url('/images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
     background-size: contain;
@@ -235,15 +235,6 @@ body {
 .speak .max-width .tell {
     padding-top: 50px;
 
-
-}
-
-.speak-content h3 span {
-    color: rgb(35, 35, 248);
-    font-weight: bolder;
-    /*background: url('/images/imagens_faleconosco/computador.gif') no-repeat right;*/
-
-    /*background: url('/images/imagens_faleconosco/pessoas_conversando.png') no-repeat right;*/
 
 }
 
@@ -590,9 +581,6 @@ footer .info ion-icon {
 }
 
 @media(max-width: 600px) {
-    .speak-content h3 span {
-        font-size: 18px;
-    }
 
     .speak-content h2 {
         font-size: 23px;
