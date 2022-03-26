@@ -19,7 +19,7 @@
 
 /* Navbar */
 body {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -507,7 +507,7 @@ footer .info ion-icon {
 
     .colum-description {
         display: block;
-        width: 100vw;
+        width: 100%;
         text-align: center;
     }
 
@@ -555,14 +555,14 @@ footer .info ion-icon {
 @media(max-width: 600px) {
     .hire.body {
         visibility: visible;
-        width: 50vw;
+        width: 50%;
         text-align: center;
         margin: 0 25vw 0 25vw;
 
     }
 
     .speak .speak-content {
-        width: 70vw;
+        width: 80%;
         height: auto;
     }
 
