@@ -22,9 +22,11 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-section{
+
+section {
     width: 100%;
 }
+
 .nav {
     position: fixed;
     width: 100%;
@@ -37,8 +39,14 @@ section{
 }
 
 .nav.sticky {
-    background-color: #1b90c6;
+    background: #212a41;
+    /*background-color: #1b90c6;*/
     padding: 15px 0;
+
+}
+
+.nav.nav.sticky .menu li a {
+    color: rgb(255, 174, 0);
 }
 
 .nav .max {
@@ -60,7 +68,7 @@ section{
 }
 
 .nav .menu li a {
-    color: rgb(2, 2, 2);
+    color: black;
     font-size: 20px;
     font-weight: 700;
     margin-left: 25px;
@@ -233,7 +241,7 @@ section{
 
 .speak {
     padding: 20px;
-    height: 80%;
+    height: 700px;
     background: url('../images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
     background-size: contain;
 }
@@ -251,10 +259,16 @@ section{
     font-family: var(--font4);
     font-weight: 600;
     color: white;
+
 }
 
 .colunm-speak h3 {
     font-weight: 400;
+    font-size: 23px;
+}
+
+.colunm-speak h2 {
+    font-size: 27px;
 }
 
 .benefits {
@@ -409,57 +423,67 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100px;
-    background: rgba(0, 0, 0, 0.534);
+    background: #212a41;
     height: 250px;
     padding: 20px;
 }
-footer .colunm{
+
+footer .colunm {
     padding: 20px;
     text-align: center;
 }
 
-footer p{
+footer p {
     margin-top: 10px;
     font-size: 20px;
     font-family: var(--font1);
     color: white;
     font-weight: 700;
 }
-footer h3{
+
+footer h3 {
     font-size: 30px;
     font-family: var(--font1);
     color: rgb(255, 174, 0);
     font-weight: bolder;
 }
-footer img{
+
+footer img {
     width: 190px;
     height: auto;
     margin-bottom: 30px;
 }
 
-footer ion-icon{
+footer ion-icon {
     font-size: 35px;
     margin: 10px;
+    color: white;
     transition: all 0.3s ease;
 
 }
-footer ion-icon:hover{
+
+footer ion-icon:hover {
     cursor: pointer;
     transform: scale(1.2);
-   
+
 }
-footer ion-icon:hover.a{
+
+footer ion-icon:hover.a {
     color: palevioletred;
 }
-footer ion-icon:hover.b{
+
+footer ion-icon:hover.b {
     color: blue;
 }
-footer ion-icon:hover.c{
+
+footer ion-icon:hover.c {
     color: green;
 }
-footer ion-icon:hover.d{
-    color: white;
+
+footer ion-icon:hover.d {
+    color: red;
 }
+
 /*Resposividade*/
 @media(max-width: 920px) {
     .hire {
@@ -575,10 +599,6 @@ footer ion-icon:hover.d{
         font-size: 20px;
     }
 
-    .speak_us {
-        width: 100%;
-    }
-
     .benefits {
         height: 100%;
     }
@@ -634,7 +654,8 @@ footer ion-icon:hover.d{
     .speak-content h2 {
         font-size: 23px;
     }
-    footer{
+
+    footer {
         display: block;
         height: 100%;
         text-align: center;
