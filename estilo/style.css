@@ -138,7 +138,7 @@ section {
     font-weight: bolder;
     text-transform: uppercase;
     margin-left: 20px;
-    color: #ccc;
+    color:white;
     font-family: var(--font4);
     opacity: 0;
 }
@@ -221,10 +221,11 @@ section {
 }
 .speak .max-width .up{
     margin-top: -40px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 .benefits .max-width .up{
     margin-top: -61px;
+    margin-bottom: 100px;
 }
 .contact .max-width .up{
     margin-top: -40px;
@@ -275,23 +276,23 @@ section {
     width: 700px;
     margin-left: 50px;
     font-family: var(--font4);
-    font-weight: 600;
-    color: white;
+    
+    color: black;
 
 }
 
 .colunm-speak h3 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 23px;
 }
 
 .colunm-speak h2 {
     font-size: 27px;
+    
+
 }
 
 .benefits {
-    /* display: flex;
-    align-items: center;*/
     height: 90vh;
     background: url('../images/back1.jpg');
     background-size: cover;
@@ -605,7 +606,9 @@ footer ion-icon:hover.d {
     .speak {
         width: 100%;
     }
-
+    .benefits .max-width .up{
+        margin-bottom: 30px;
+    }
     .speak .speak-content {
         width: 50vw;
     }
