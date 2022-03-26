@@ -566,7 +566,8 @@ footer .info ion-icon {
     }
 
     .speak .speak-content {
-        width: 50vh;
+        width: 70vw;
+        height: auto;
     }
 
     .colunm-speak {
