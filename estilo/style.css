@@ -113,7 +113,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: url('/images/back2.jpg') fixed;
+    background: url('../images/back2.jpg') fixed;
     background-size: cover;
 }
 
@@ -182,7 +182,7 @@ body {
     display: flex;
     justify-content: end;
     font-size: 20px;
-    background: url('/images/marginalia-1204.png') no-repeat, url('/images/desenho.png') no-repeat left;
+    background: url('../images/marginalia-1204.png') no-repeat, url('../images/desenho.png') no-repeat left;
     background-size: contain;
     margin-bottom: 40px;
 
@@ -229,9 +229,9 @@ body {
 }
 
 .speak {
-    padding:20px;
+    padding: 20px;
     height: 80vh;
-    background: url('/images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
+    background: url('../images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
     background-size: contain;
 }
 
@@ -256,7 +256,7 @@ body {
 
 .benefits {
     height: 90vh;
-    background: url('/images/back1.jpg');
+    background: url('../images/back1.jpg');
     background-size: cover;
     padding: 40px;
 }
@@ -498,7 +498,7 @@ footer .info ion-icon {
         color: white;
     }
 
-    .about-content{
+    .about-content {
         display: block;
         text-align: center;
 
