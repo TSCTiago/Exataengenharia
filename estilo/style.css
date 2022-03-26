@@ -310,7 +310,7 @@ section{
 /*Contato*/
 .contact {
     background: rgba(0, 0, 0, 0.719);
-    height: 100vh;
+    height: 70vh;
     padding: 20px;
 }
 
@@ -426,6 +426,8 @@ footer p{
 footer h3{
     font-size: 30px;
     font-family: var(--font1);
+    color: rgb(255, 174, 0);
+    font-weight: bolder;
 }
 footer img{
     width: 190px;
