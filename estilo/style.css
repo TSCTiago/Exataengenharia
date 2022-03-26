@@ -413,6 +413,7 @@ footer {
 }
 footer .colunm{
     padding: 20px;
+    text-align: center;
 }
 
 footer p{
@@ -431,8 +432,29 @@ footer img{
     height: auto;
     margin-bottom: 30px;
 }
+
 footer ion-icon{
-    font-size: 40px;
+    font-size: 35px;
+    margin: 10px;
+    transition: all 0.3s ease;
+
+}
+footer ion-icon:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+   
+}
+footer ion-icon:hover.a{
+    color: pink;
+}
+footer ion-icon:hover.b{
+    color: blue;
+}
+footer ion-icon:hover.c{
+    color: green;
+}
+footer ion-icon:hover.d{
+    color: white;
 }
 /*Resposividade*/
 @media(max-width: 920px) {
