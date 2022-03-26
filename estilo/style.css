@@ -87,6 +87,13 @@ body{
     font-weight: 700;
 
 }
+.hire.body{
+    visibility: hidden;
+    font-family: var(--font4);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
 .menu-open {
     visibility: hidden;
 }
@@ -101,7 +108,6 @@ body{
     align-items: center;
     background: url('/images/back2.jpg') fixed;
     background-size: cover;
-
 }
 
 .img_logo {
@@ -401,6 +407,14 @@ footer .info ion-icon {
 
 /*Resposividade*/
 @media(max-width: 920px) {
+    .hire{
+        visibility: hidden;
+    }
+
+    .home-section{
+        display: block;
+        text-align: center;
+    }
     .menu-open {
         visibility: visible;
         font-size: 40px;
@@ -505,8 +519,11 @@ footer .info ion-icon {
     }
 }
 @media(max-width: 600px) {
-    .hire{
-        visibility: hidden;
+    .hire.body{
+        visibility: visible;
+        width: 50vw;
+        text-align: center;
+        margin-left: 150px;
     }
     .speak .speak-content{
         width: 50vh;
