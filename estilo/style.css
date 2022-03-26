@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --font1: 'Lato', sans-serif;
+    --font2: 'Raleway', sans-serif;
+    --font3: 'Rubik', sans-serif;
+    --font4: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background: none;
+    padding: 20px 0;
+    font-family: var(--font2);
+    background: rgba(0, 0, 0, 0.37);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.nav.sticky {
+    background-color: #1b90c6;
+    padding: 15px 0;
+}
+
+.nav .max {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo .logo_img {
+    width: 150px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.nav .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav .menu li a {
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+
+.nav .menu li:hover {
+    transform: scale(1.2);
+}
+
+.nav .menu li a:hover {
+    color: white;
+}
+.hire{
+    padding: 10px;
+    background: rgb(255, 174, 0);
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+.hire:hover{
+    transform: scale(1.2);
+    border: 1px solid yellow;
+    background: none;
+}
+.hire a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.menu-open {
+    visibility: hidden;
+}
+
+/*Seção Principal (home)*/
+
+.home-section {
+    /*background: wheat;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('/images/bg2.jpg') fixed;
+    background-size: cover;
+
+}
+
+.img_logo {
+    margin-left: 30px;
+    opacity: 0.5;
+}
+
+.text {
+    margin: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: white;
+    font-family: var(--font4);
+    opacity: 0;
+}
+
+.slide-left {
+    animation: slide 1s normal forwards;
+}
+
+.one {
+    animation-delay: 0.2s;
+}
+
+.two {
+    animation-delay: 0.3s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+/*Seção sobre a história da empresa*/
+.max-width {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.max-width  h2 {
+    margin: 10px 0 10px 0;
+    /*margin-bottom: 30px;*/
+    font-family: var(--font4);
+    font-weight: bolder;
+    /* background: url('/images/bateria_solar.png') fixed;
+    padding: 30px;
+    margin-top: 0;
+    width: 100%; */
+}
+.about-content {
+    height: 70vh;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    background: url('/images/marginalia-1204.png') no-repeat, url('/images/desenho.png') no-repeat left;
+    background-size: contain;
+
+}
+
+.colum-description {
+    width: 50vw;
+    font-weight: 600;
+    text-align: justify;
+    margin-right: 50px;
+    background: none;
+    font-family: var(--font1);
+    font-size: 24px;
+
+}
+.orcament{
+    width: 300px;
+}
+.colum-description .orcament, .speak_us {
+    text-align: center;
+    color: white;
+    background: rgb(255, 174, 0);
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid yellow;
+    transition: all 0.3s ease;
+    margin-bottom: 100px;
+}
+
+.colum-description .orcament:hover, .speak_us:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bolder;
+    color: green;
+    background: rgba(255, 174, 0, 0.774);
+}
+
+.colum-description p {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.speak {
+    width: 100%;
+    height: 80vh;
+    background: url('/images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
+    background-size: contain;
+}
+.speak .max-width .tell{
+    padding-top: 50px;
+
+
+}
+.speak-content h3 span {
+    color: rgb(35, 35, 248);
+    font-weight: bolder;
+    /*background: url('/images/imagens_faleconosco/computador.gif') no-repeat right;*/
+   
+    /*background: url('/images/imagens_faleconosco/pessoas_conversando.png') no-repeat right;*/
+
+}
+
+.colunm-speak {
+    text-align: justify;
+    width: 700px;
+    margin-left: 50px;
+    font-family: var(--font4);
+    font-weight: 600;
+    color: white;
+}
+.colunm-speak h3{
+    font-weight: 400;
+}
+.benefits {
+    height: 100vh;
+    margin: 0 20px 0 20px;
+    background: url('/images/bg1.jpg');
+    background-size: cover;
+}
+
+.benefits-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.card {
+    text-align: center;
+    width: 24%;
+    font-size: 20px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 30px;
+    border-radius: 7px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.card ion-icon {
+    font-size: 70px;
+}
+
+.card h2 {
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: black;
+}
+
+/*Contato*/
+.contact {
+    background: rgba(0, 0, 0, 0.719);
+    height: 100vh;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contact-content .column {
+    width: 70%;
+}
+
+.contact .contact-content {
+    align-items: flex-start;
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact .right form, .fields {
+    display: flex;
+}
+
+.contact .right form, .fields,
+.contact .right form, .fields .field {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.contact .right form, .fields input,
+.contact .right form, .textarea textarea {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact .right form, .name {
+    margin-right: 10px;
+}
+
+.contact .right form, .tel {
+    margin-left: 10px;
+}
+
+.contact .right form, .textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.contact .right form, .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form, .button {
+    width: 170px;
+    height: 47px;
+}
+
+.contact .right form, .button button {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cor0);
+    background: var(--cor0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .right form, .button button:hover {
+    color: black;
+    background: none;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.534);
+}
+
+footer .info {
+    font-size: 30px;
+}
+
+footer .info ion-icon {
+    margin: 40px;
+}
+
+
+/*Resposividade*/
+@media(max-width: 920px) {
+    .menu-open {
+        visibility: visible;
+        font-size: 40px;
+        color: white;
+    }
+
+    .max {
+        max-width: 800px;
+        padding: 0 50px;
+    }
+
+    .menu-open {
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+    }
+
+    .menu-open.turn-in {
+        transform: rotate(45deg);
+        color: yellow;
+        font-size: 50px;
+    }
+
+    .nav .menu {
+        margin-top: -100%;
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        background: rgb(17, 17, 17);
+        padding-top: 80px;
+        text-align: center;
+        transition: all 0.4s ease;
+        border-radius: 0 0 500px 0;
+    }
+
+    .nav .menu.active {
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav .menu li {
+        opacity: 1;
+        display: block;
+    }
+
+    .nav .menu li, .active {
+        opacity: 1;
+    }
+
+    .nav .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+        color: white;
+    }
+
+    .about-content{
+        display: block;
+        text-align: center;   
+       
+    }
+    .colum-description {
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .orcament{
+        margin-left: 15vh;
+    }
+    .speak .speak-content{
+        width: 50vh;
+    }
+    .colunm-speak{
+        width: 100%;
+        display: block;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .speak_us{
+        width: 100%;
+    }
+    .benefits {
+        height: 100%;
+    }
+
+    .benefits-content {
+        display: block;
+
+    }
+
+    .card {
+        width: 100%;
+        height: 250px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
