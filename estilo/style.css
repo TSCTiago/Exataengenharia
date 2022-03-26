@@ -178,13 +178,13 @@ body {
 
 .about-content {
     padding: 30px;
-    height: 70vh;
+    height: 70%;
     display: flex;
     justify-content: end;
     font-size: 20px;
     background: url('../images/marginalia-1204.png') no-repeat, url('../images/desenho.png') no-repeat left;
     background-size: contain;
-    margin-bottom: 40px;
+
 
 }
 
@@ -197,6 +197,7 @@ body {
     background: none;
     font-family: var(--font1);
     font-size: 24px;
+    margin-bottom: 10px;
 
 }
 
@@ -212,7 +213,7 @@ body {
     border-radius: 7px;
     border: 1px solid yellow;
     transition: all 0.3s ease;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .colum-description .orcament:hover, .speak_us:hover {
@@ -230,7 +231,7 @@ body {
 
 .speak {
     padding: 20px;
-    height: 80vh;
+    height: 80%;
     background: url('../images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
     background-size: contain;
 }
