@@ -586,6 +586,7 @@ footer ion-icon:hover.d {
     }
 
     .about-content {
+        height: 100vh;
         display: block;
         text-align: center;
 
