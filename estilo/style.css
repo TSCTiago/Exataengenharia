@@ -177,16 +177,19 @@ body {
 }
 
 .about-content {
+    padding: 30px;
     height: 70vh;
     display: flex;
     justify-content: end;
     font-size: 20px;
     background: url('/images/marginalia-1204.png') no-repeat, url('/images/desenho.png') no-repeat left;
     background-size: contain;
+    margin-bottom: 40px;
 
 }
 
 .colum-description {
+    padding: 30px;
     width: 50vw;
     font-weight: 600;
     text-align: justify;
@@ -508,7 +511,8 @@ footer .info ion-icon {
     }
 
     .orcament {
-        margin: 0 20vw 0 20vw;
+        margin: 0 10vw 0 10vw;
+
     }
 
     .speak {
