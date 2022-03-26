@@ -553,3 +553,11 @@ footer .info ion-icon {
         text-align: center;
     }
 }
+@media(max-width: 600px){
+    .speak-content h3 span{
+        font-size: 18px;
+    }
+    .speak-content h2{
+        font-size: 23px;
+    }
+}
