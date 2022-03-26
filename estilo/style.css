@@ -413,7 +413,7 @@ footer .info ion-icon {
 
     .home-section{
         display: block;
-        text-align: center;
+        
     }
     .menu-open {
         visibility: visible;
@@ -524,6 +524,9 @@ footer .info ion-icon {
         width: 50vw;
         text-align: center;
         margin-left: 150px;
+    }
+    .home-div{
+        text-align: center;
     }
     .speak .speak-content{
         width: 50vh;
