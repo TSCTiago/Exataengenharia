@@ -504,13 +504,14 @@ footer .info ion-icon {
         color: white;
     }
 
-    .about-content {
+    .about-content{
         display: block;
         text-align: center;
 
     }
 
     .colum-description {
+        display: block;
         width: 100vw;
         text-align: center;
     }
@@ -576,7 +577,7 @@ footer .info ion-icon {
     }
 
     .speak_us {
-        width: 350px
+        width: 200px
     }
 
     .card {
