@@ -226,7 +226,7 @@ body {
 }
 
 .speak {
-    width: 100%;
+    padding: 0 30px;
     height: 80vh;
     background: url('/images/imagens_faleconosco/estatística.png') no-repeat right, rgba(0, 0, 0, 0.589);
     background-size: contain;
@@ -577,7 +577,7 @@ footer .info ion-icon {
     }
 
     .speak_us {
-        width: 200px
+        width: 300px
     }
 
     .card {
