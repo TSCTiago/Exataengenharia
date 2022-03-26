@@ -672,7 +672,7 @@ footer ion-icon:hover.d {
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
 
     .speak-content h2 {
         font-size: 23px;
@@ -685,4 +685,12 @@ footer ion-icon:hover.d {
     }
 
 
+}
+@media(max-width: 400px){
+    .about .max-width{
+        margin-bottom: 30px;
+    }
+    .speak .speak-content{
+        margin-bottom: 130px;
+    }
 }
