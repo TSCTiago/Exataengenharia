@@ -499,9 +499,9 @@ footer .info ion-icon {
     .orcament{
         margin: 0 20vw 0 20vw;
     }
-    /* .speak{
-        overflow-x: hidden;
-    } */
+    .speak{
+        width: 100%;
+    }
     .speak .speak-content{
         width: 50vh;
     }
