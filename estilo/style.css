@@ -584,8 +584,7 @@ footer ion-icon:hover.d {
         color: white;
     }
     .colum-description{
-        left: 0;
-        width: 500px;
+        width: 100vw;
     }
     .about-content {
         width: 100%;
