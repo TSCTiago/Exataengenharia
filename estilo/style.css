@@ -194,6 +194,7 @@ section {
     height: 700px;
     display: block;
     font-size: 20px;
+    margin-left: 40%;
 }
 
 .colum-description {
@@ -587,6 +588,7 @@ footer ion-icon:hover.d {
         width: 100%;
     }
     .about-content {
+        margin-left: 0;
         width: 100%;
         display: block;
         text-align: center;
