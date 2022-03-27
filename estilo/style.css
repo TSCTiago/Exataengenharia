@@ -595,6 +595,9 @@ footer ion-icon:hover.d {
         margin-bottom: 50px;
 
     }
+    .here{
+        visibility: hidden;
+    }
     .speak {
         width: 100%;
         height: 100vh;
