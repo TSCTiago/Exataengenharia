@@ -584,21 +584,14 @@ footer ion-icon:hover.d {
         color: white;
     }
     .colum-description{
-        width: 100vw;
+        width: 90vw;
     }
     .about-content {
         width: 100%;
-        height: 100vh;
         display: block;
         text-align: center;
 
     }
-
-    .orcament {
-        margin: 0 10vw 0 10vw;
-
-    }
-
     .speak {
         width: 100%;
         height: 100vh;
